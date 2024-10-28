@@ -1,0 +1,27 @@
+:root{
+    --fd-color: rgb(255, 195, 210);
+    --primary-color: rgb(255, 76, 115);
+    --estilo-fonte: rgb(197, 2, 67);
+    --secunddary-color: rgb(253, 116, 150);
+}
+body{
+    background-color:  var(--fd-color);
+}
+.fonte {
+    color: var(--estilo-fonte);
+    font-size: 300%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titulo {
+    background-color: var(--secunddary-color);
+    padding: 15px;
+    border-style: dotted;
+    border-color: var(--primary-color);
+    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+h2 {
+    color: var(--primary-color);
+}
